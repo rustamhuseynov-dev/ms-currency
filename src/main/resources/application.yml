@@ -8,4 +8,3 @@ spring:
 
   currency:
     api-key: "fca_live_qG9OgrdEqoD2aj2XOnRrZn5kCmI8w5YPFIYaao8Z"
-    currencies: "EUR,USD,CAD"
