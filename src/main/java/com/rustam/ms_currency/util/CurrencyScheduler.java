@@ -11,7 +11,7 @@ public class CurrencyScheduler {
 
     private final CurrencyService currencyService;
 
-    @Scheduled(fixedRate = 60000) // Hər 1 dəqiqədən bir
+    @Scheduled(fixedRate = 60000)
     public void scheduleCurrencyUpdate() {
         currencyService.save();
     }
